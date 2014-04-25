@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="../jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="../kpAlbum.js"></script>
+</head>
+<body style="height: 10000px">
+
+    <img src="images/iphone.png" width="100" style="margin-top:1000px"/>
+    <img src="images/ipad.png"  width="100" />
+    <img src="images/imac.png"  width="100" />
+
+
+    <script type="text/javascript">
+
+
+        // 不考虑图片JS css加载
+        $(function(){
+            $('img').kpAlbum();
+        });
+
+        // $(document).ready(function(){})
+
+
+    </script>
+</body>
+</html>
